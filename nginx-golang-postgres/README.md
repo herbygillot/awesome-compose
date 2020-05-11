@@ -59,7 +59,7 @@ Listing containers must show two containers running and the port mapping as belo
 $ docker ps
 CONTAINER ID        IMAGE                           COMMAND                  CREATED             STATUS              PORTS                NAMES
 5e3ecd0289c0        nginx-golang-postgres_proxy     "nginx -g 'daemon of…"   48 seconds ago      Up 48 seconds       0.0.0.0:80->80/tcp   nginx-golang-postgres_proxy_1
-ffa1410b1c8a        nginx-golang-postgres_backend   "/server"                49 seconds ago      Up 48 seconds       8000/tcp             nginx-golang-postgres_backend_1
+ffa1410b1c8a        nginx-golang-postgres_backend   "/server"                49 seconds ago      Up 48 seconds       9000/tcp             nginx-golang-postgres_backend_1
 e63be7db7cbc        postgres                        "docker-entrypoint.s…"   49 seconds ago      Up 49 seconds       5432/tcp             nginx-golang-postgres_db_1
 ```
 
